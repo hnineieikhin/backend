@@ -7,7 +7,7 @@ const Role = require('./DataAccess/models/role.model')
 const app = express(); //server create
 const port=3000;
 const options = {
-    origin: ['http://localhost:5173','https://intern-training.onrender.com'],
+    origin: ['http://localhost:5173','https://intern-training-d5yv.onrender.com'],
     methods: ['GET','POST','PUT','DELETE'
 
     ]
